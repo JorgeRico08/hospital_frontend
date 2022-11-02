@@ -10,13 +10,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { NavbarComponent } from './navbar/navbar.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { NavBarComponent } from './components/pages/nav-bar/nav-bar.component';
 
+
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -25,8 +26,7 @@ import { NavBarComponent } from './components/pages/nav-bar/nav-bar.component';
     ExpedienteComponent,
     EventoComponent,
     HomeComponent,
-    NavbarComponent,
-    NavBarComponent
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,6 +39,7 @@ import { NavBarComponent } from './components/pages/nav-bar/nav-bar.component';
     MatButtonModule,
     MatIconModule,
     MatListModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

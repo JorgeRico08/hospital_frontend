@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventoComponent implements OnInit {
 
+  heroes: string = "Medina";
   constructor() { }
 
   ngOnInit(): void {
