@@ -1,3 +1,3 @@
-export interface ExpedienteFiltroRequest{
-    curp: string;
+export class ExpedienteFiltroRequest{
+    curp!: string;
 }

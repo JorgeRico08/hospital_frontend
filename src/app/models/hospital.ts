@@ -1,6 +1,6 @@
-export interface Hospital{
+export class Hospital{
     
-    idHospital: number;
-    nombre: string;
-    direccion: string;
+    idHospital!: number;
+    nombre!: string;
+    direccion!: string;
 }

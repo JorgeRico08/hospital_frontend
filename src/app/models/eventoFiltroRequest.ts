@@ -1,3 +1,3 @@
-export interface EventoFiltroRequest{
-    fechaIngreso: string;
+export class EventoFiltroRequest{
+    fechaIngreso!: string;
 }

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders , HttpRequest,  HttpEvent, HttpParams} from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Evento } from '../models/evento';
-import { Response } from '../models/Response'
+import { Response } from '../models/response'
 import { EventoRequest } from '../models/eventoRequest';
 import { EventoFiltroRequest } from '../models/eventoFiltroRequest';
 

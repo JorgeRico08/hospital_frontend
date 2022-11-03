@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup } from '@angular/forms';
+import { Expediente } from 'src/app/models/expediente';
+import { ExpedienteFiltroRequest } from 'src/app/models/expedienteFiltroRequest';
+import { ExpedienteService } from 'src/app/service/expediente.service';
+import { MatTableDataSource } from "@angular/material/table";
 
 @Component({
   selector: 'app-expediente',
@@ -6,6 +11,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./expediente.component.css']
 })
 export class ExpedienteComponent implements OnInit {
+
+ 
+
+  
   filterPost = '';
   
   posts = [
@@ -28,9 +37,13 @@ export class ExpedienteComponent implements OnInit {
 
   
 
-  constructor() { }
+  constructor(
+    
+  ) { }
 
   ngOnInit(): void {
   }
+
+  
 
 }

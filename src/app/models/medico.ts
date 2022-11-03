@@ -1,11 +1,11 @@
 import { Hospital } from "./hospital";
 
-export interface Medico{
+export class Medico{
 
-   idMedico: number;
-   nombre: string;
-   apePat: string;
-   apeMat: string;
-   idHospital: Hospital;
+   idMedico!: number;
+   nombre!: string;
+   apePat!: string;
+   apeMat!: string;
+   idHospital!: Hospital;
 
 }
